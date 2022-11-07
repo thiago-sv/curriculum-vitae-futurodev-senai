@@ -1,0 +1,172 @@
+/*reset css*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', arial, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+a {
+    color: #000;
+
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*end reset css*/
+
+section.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 9rem;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul.menu__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.container-introducao {
+    background-color: rgb(80, 3, 3);
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-objetivo,
+.container-formacao-academica,
+.container-experiencia-profissional,
+.container-sintese-qualificacoes,
+.container-idioma,
+.container-experiencias-profissionais,
+.container-capacitacao-qualificacao {
+    background-color: rgb(80, 3, 3);
+    color: #fff;
+    height: 100%;
+    padding: 20px;
+}
+
+
+.objetivo,
+.formacao-academica,
+.sintese-qualificacoes,
+.idioma,
+.capacitacao-qualificacao,
+.experiencias-profissionais {
+    margin-left: 50px;
+
+}
+
+.texto-objetivo,
+.texto-formacao-academica,
+.texto-idioma,
+.lista-sintese-qualificacoes {
+    width: 50%;
+    text-align: justify;
+    line-height: 2;
+    margin: 0px 9rem;
+}
+
+
+.lista-experiencias-profissionais {
+    width: 90%;
+    text-align: justify;
+    line-height: 2;
+}
+
+.texto-formacao-academica a {
+    color: #fff;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.texto-introducao {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.texto-descricao {
+    text-align: justify;
+    line-height: 2;
+}
+
+.texto-descricao a {
+    color: #fff;
+}
+
+
+section.formcontato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 32px;
+    gap: 10px;
+    width: 90vw;
+    height: 675px;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    width: 90vw;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 0px;
+    gap: 2rem;
+    width: 80vw;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text form input {
+
+    width: 30%;
+    height: 2rem;
+    border-radius: 4px;
+}
